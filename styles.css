@@ -2221,12 +2221,9 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   color: #ff4081;
 }
 /* You can add global styles to this file, and also import other style files */
-body {
-    margin: 0 !important;
-    height: 100vh;
-}
-html, body { height: 100%; scroll-behavior: smooth;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html { height: 100%; scroll-behavior: smooth; }
+body { margin: 0; height: 100vh;}
+html *{font-family: 'Quicksand' ;}
 .current {
     transition: font-size 0.1s;
     color: black !important;
@@ -2239,8 +2236,32 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: cyan !important;
     left: 6.5px !important;
 }
-
-
+h1 {
+    font-family: 'Quicksand' !important;
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.title {
+    color: darkcyan; 
+    font-size: 29px; 
+    font-weight: bold; 
+    padding-top: 35px;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+.icon-style {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.icon-style a {
+    color: black;
+}
+.icon-style a :hover{
+    color: white;
+}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
